@@ -20,3 +20,16 @@ A Python-based network analysis tool for educational purposes. Performs ARP spoo
 1. Clone the repository:
    ```bash
    git clone https://github.com/yassir030/Network-Security-Sniffer
+2. go in to files
+   ```bash
+   cd Network-Security-Sniffer
+3. install requirements
+   ```bash
+   sudo pip3 install -r requirements.txt
+4. IP Forwarding
+   ```bash
+   sudo sysctl -w net.ipv4.ip_forward=1
+5. run the script
+   ```bash
+   sudo python3 network_sniffer.py
+
